@@ -1,0 +1,74 @@
+100 neuroni 1 strat ->
+
+
+Acuratete medie pe validare: 0.9924
+Deviatie standard: 0.0004
+
+--- Clasa 0 ---
+Precizie medie: 0.9997
+Recall mediu:    0.9851
+F1-score mediu:  0.9924
+
+--- Clasa 1 ---
+Precizie medie: 0.9854
+Recall mediu:    0.9997
+F1-score mediu:  0.9925
+
+Matricea de confuzie medie:
+[[9240  139]
+ [   2 9377]]
+
+
+
+
+
+
+
+
+
+ 100 50 2 straturi
+
+
+Acuratete medie pe validare: 0.9924
+Deviatie standard: 0.0004
+
+--- Clasa 0 ---
+Precizie medie: 0.9997
+Recall mediu:    0.9851
+F1-score mediu:  0.9924
+
+--- Clasa 1 ---
+Precizie medie: 0.9854
+Recall mediu:    0.9997
+F1-score mediu:  0.9925
+
+Matricea de confuzie medie:
+ [9240  139]
+ [   2 9377]
+
+
+
+
+
+
+ 100 50 2 straturi tanh
+
+
+Acuratete medie pe validare: 0.9924
+Deviatie standard: 0.0004
+
+--- Clasa 0 ---
+Precizie medie: 0.9997
+Recall mediu:    0.9851
+F1-score mediu:  0.9924
+
+--- Clasa 1 ---
+Precizie medie: 0.9854
+Recall mediu:    0.9997
+F1-score mediu:  0.9925
+
+Matricea de confuzie medie:
+[[9240  139]
+ [   2 9377]]
+
+-----> Practic e acelasi lucru deci o sa las doar un strat cu relu
