@@ -40,6 +40,13 @@ df = None
 if(df is None):
     df = loadData()
 
+@app.route("/", methods=["GET"])
+def status_check():
+    return {
+        "status": "healthy",
+        "message": "ML API server is running",
+        "endpoint": "/train_model (POST)"
+    }, 200
 
 @app.route("/train_model", methods=["POST"])
 def train_model():
